@@ -1,0 +1,76 @@
+.site {
+	&__header {
+		// border: solid 2px red;
+		&__container {
+			// border: solid 2px yellow;
+		}
+	}
+	&__brand {
+		// border: solid 2px blue;
+	}
+	&__navigation {
+		font-family: 'Roboto', sans-serif;
+
+		ul#menu-main-menu {
+			// common styles for the 1st level main menu list item
+			> li.menu-item {
+				display: inline-block;
+				// margin: 0px 5px;
+				// common styles for the 1st level main menu list item anchor
+				> a {
+					padding: 10px 20px;
+					display: inline-block;
+				}
+			}
+
+			// common styles for the 1st level main menu list item with sub-menu
+			> li.menu-item.menu-item-has-children {
+				position: relative;
+				// common styles for the 1st level main menu list item anchor with sub-menu
+				> a {
+				}
+				// common styles for the 2nd level sub-menu
+				> ul.sub-menu {
+					display: none;
+					position: absolute;
+					background: #eee;
+					color: #000;
+					left: 0;
+					right: auto;
+					padding: 20px;
+					min-width: 250px;
+					box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+					border-radius: 4px;
+					z-index: 2;
+					// common styles for the 2nd level sub-menu list item
+					> li.menu-item {
+						// margin: 10px 0px;
+						// common styles for the 2nd level sub-menu list item anchor
+						> a {
+						}
+					}
+				}
+				&:hover {
+					> ul.sub-menu {
+						display: block;
+					}
+				}
+			}
+			// last child of the 1st level main menu list item
+			> li.menu-item:last-child {
+				&.menu-item-has-children {
+					// common styles for the last child of the 1st level main menu list item anchor with sub-menu
+					> a {
+					}
+					> ul.sub-menu {
+						right: 0;
+						left: auto;
+					}
+				}
+				// common styles for the last child of the 1st level main menu list item anchor
+				> a {
+				}
+			}
+		}
+	}
+}

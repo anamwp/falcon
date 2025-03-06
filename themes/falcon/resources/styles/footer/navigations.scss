@@ -1,0 +1,9 @@
+.footer-menu {
+	ul {
+		li {
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}

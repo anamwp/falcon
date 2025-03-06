@@ -1,0 +1,23 @@
+.footer-widgets {
+	.logo {
+		svg {
+			width: 100px;
+			height: 100px;
+			margin-bottom: 15px;
+			border-radius: 100px;
+		}
+	}
+	p {
+		margin-right: 30px;
+		margin-bottom: 15px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.widget_block {
+		margin-bottom: 15px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

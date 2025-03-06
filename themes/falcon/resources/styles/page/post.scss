@@ -1,0 +1,12 @@
+body.single {
+	article.post {
+		.post-featured-image {
+			margin: 30px -30px;
+		}
+		.single-post-content {
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+		}
+	}
+}

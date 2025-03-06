@@ -1,0 +1,13 @@
+{
+  "app-scripts.js": "js/app-scripts.js",
+  "editor-scripts.js": "js/editor-scripts.js",
+  "app-styles.js": "js/app-styles.js",
+  "editor-styles.js": "js/editor-styles.js",
+  "runtime.js": "js/runtime.js",
+  "images/icons/logo.svg": "images/icons/logo.svg",
+  "images/icons/lorem.jpg": "images/icons/lorem.jpg",
+  "images/placeholder.jpg": "images/placeholder.jpg",
+  "../theme.json": "../theme.json",
+  "entrypoints.json": "entrypoints.json",
+  "hmr.json": "hmr.json"
+}
