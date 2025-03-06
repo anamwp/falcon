@@ -19,8 +19,8 @@
 /cache/*
 
 # DO NOT ignore these themes...
-!/themes/frost
-!/themes/devsage
+# !/themes/frost
+!/themes/falcon
 
 #---------------------------
 # WordPress plugins
