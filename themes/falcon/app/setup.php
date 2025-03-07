@@ -8,21 +8,22 @@ namespace App;
 
 use function Roots\bundle;
 
-add_action( 'init', 'App\handleACFOptionPanel' );
-function handleACFOptionPanel() {
-	if ( function_exists( 'acf_add_options_page' ) ) {
-		// dump('ACF is active');
+add_action( 'init', __NAMESPACE__ . 'falcon_callback_handle_acf_option_panel' );
 
+/**
+ * Create ACF option panel
+ */
+function falcon_callback_handle_acf_option_panel() {
+	if ( function_exists( 'acf_add_options_page' ) ) {
 		acf_add_options_page(
 			array(
-				'page_title' => 'CGL General Settings',
-				'menu_title' => 'CGL Settings',
-				'menu_slug'  => 'cgl-general-settings',
+				'page_title' => 'Falcon General Settings',
+				'menu_title' => 'Falcon Settings',
+				'menu_slug'  => 'falcon-general-settings',
 				'capability' => 'edit_posts',
 				'redirect'   => false,
 			)
 		);
-
 	}
 }
 
@@ -35,8 +36,13 @@ function handleACFOptionPanel() {
 add_action(
 	'wp_enqueue_scripts',
 	function () {
-		bundle( 'app-scripts' )->enqueue(['handle' => 'app-scripts', 'in_footer' => true]);
-		bundle( 'app-styles' )->enqueue([ 'handle' => 'app-styles' ]);
+		bundle( 'app-scripts' )->enqueue(
+			array(
+				'handle'    => 'app-scripts',
+				'in_footer' => true,
+			)
+		);
+		bundle( 'app-styles' )->enqueue( array( 'handle' => 'app-styles' ) );
 	},
 	100
 );
@@ -68,7 +74,7 @@ add_action(
 		 *
 		 * @link https://wptavern.com/gutenberg-10-5-embeds-pdfs-adds-verse-block-color-options-and-introduces-new-patterns
 		 */
-		remove_theme_support( 'block-templates' );
+		//remove_theme_support( 'block-templates' );
 
 		/**
 		 * Register the navigation menus.
@@ -110,7 +116,7 @@ add_action(
 		 *
 		 * @link https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-support/#responsive-embedded-content
 		 */
-		// add_theme_support('responsive-embeds');
+		add_theme_support( 'responsive-embeds' );
 
 		/**
 		 * Enable HTML5 markup support.
@@ -137,13 +143,12 @@ add_action(
 		 */
 		add_theme_support( 'customize-selective-refresh-widgets' );
 		/**
-		 * support appearance tools
+		 * Support appearance tools
 		 */
 		add_theme_support( 'appearance-tools' );
 		add_theme_support( 'link-color' );
 		add_theme_support( 'border' );
 		add_theme_support( 'custom-spacing' );
-		// add_theme_support( 'responsive-embeds' );
 		add_theme_support( 'editor-styles' );
 		add_theme_support( 'wp-block-styles' );
 		add_theme_support( 'align-wide' );
