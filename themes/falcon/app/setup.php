@@ -8,7 +8,7 @@ namespace App;
 
 use function Roots\bundle;
 
-add_action( 'init', __NAMESPACE__ . 'falcon_callback_handle_acf_option_panel' );
+add_action( 'init', __NAMESPACE__ . '\falcon_callback_handle_acf_option_panel' );
 
 /**
  * Create ACF option panel
