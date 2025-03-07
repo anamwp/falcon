@@ -13,12 +13,17 @@ quote_type = single
 trim_trailing_whitespace = false
 
 [*.php]
+indent_style = tab
 indent_size = 4
 
 [*.blade.php]
 indent_size = 4
 
 [resources/views/**.php]
+indent_size = 4
+
+[app/**.php]
+indent_style = tab
 indent_size = 4
 
 [index.php]

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ruleset name="Falcon Theme Coding Standards">
+    <description>WordPress Coding Standards for Falcon Theme with tab indentation</description>
+
+    <!-- Include the WordPress ruleset -->
+    <rule ref="WordPress">
+        <!-- Exclude the rule that enforces spaces for indentation -->
+        <exclude name="Generic.WhiteSpace.DisallowTabIndent"/>
+    </rule>
+
+    <!-- Enforce tabs for indentation -->
+    <rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
+
+    <!-- Configure tab width -->
+    <arg name="tab-width" value="4"/>
+
+    <!-- Scan all PHP files in the current directory and below -->
+    <file>.</file>
+    <arg name="extensions" value="php"/>
+
+    <!-- Show progress, show sniff names -->
+    <arg value="ps"/>
+</ruleset>
+
