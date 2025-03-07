@@ -294,8 +294,8 @@ class ComposerStaticInitb1b7b08de7adb57abab6f4fb3dac07c9
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -367,9 +367,9 @@ class ComposerStaticInitb1b7b08de7adb57abab6f4fb3dac07c9
         ),
         'Illuminate\\Support\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/macroable',
+            0 => __DIR__ . '/..' . '/illuminate/collections',
             1 => __DIR__ . '/..' . '/illuminate/conditionable',
-            2 => __DIR__ . '/..' . '/illuminate/collections',
+            2 => __DIR__ . '/..' . '/illuminate/macroable',
             3 => __DIR__ . '/..' . '/illuminate/support',
         ),
         'Illuminate\\Session\\' => 
@@ -516,6 +516,7 @@ class ComposerStaticInitb1b7b08de7adb57abab6f4fb3dac07c9
         'App\\Options\\SageOption' => __DIR__ . '/../..' . '/app/Options/SageOption.php',
         'App\\Providers\\ThemeServiceProvider' => __DIR__ . '/../..' . '/app/Providers/ThemeServiceProvider.php',
         'App\\View\\Components\\ExampleComponent' => __DIR__ . '/../..' . '/app/View/Components/ExampleComponent.php',
+        'App\\View\\Components\\ImageComponent' => __DIR__ . '/../..' . '/app/View/Components/ImageComponent.php',
         'App\\View\\Composers\\App' => __DIR__ . '/../..' . '/app/View/Composers/App.php',
         'App\\View\\Composers\\Comments' => __DIR__ . '/../..' . '/app/View/Composers/Comments.php',
         'App\\View\\Composers\\Post' => __DIR__ . '/../..' . '/app/View/Composers/Post.php',

@@ -10,6 +10,7 @@ return array(
     'App\\Options\\SageOption' => $baseDir . '/app/Options/SageOption.php',
     'App\\Providers\\ThemeServiceProvider' => $baseDir . '/app/Providers/ThemeServiceProvider.php',
     'App\\View\\Components\\ExampleComponent' => $baseDir . '/app/View/Components/ExampleComponent.php',
+    'App\\View\\Components\\ImageComponent' => $baseDir . '/app/View/Components/ImageComponent.php',
     'App\\View\\Composers\\App' => $baseDir . '/app/View/Composers/App.php',
     'App\\View\\Composers\\Comments' => $baseDir . '/app/View/Composers/Comments.php',
     'App\\View\\Composers\\Post' => $baseDir . '/app/View/Composers/Post.php',

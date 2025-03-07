@@ -1,4 +1,12 @@
 <?php
+/**
+ * Asset configuration for the Falcon theme.
+ *
+ * This file is responsible for defining and managing the assets
+ * (such as stylesheets and scripts) used in the Falcon WordPress theme.
+ *
+ * @package Falcon
+ */
 
 return array(
 

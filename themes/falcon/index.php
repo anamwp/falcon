@@ -1,3 +1,3 @@
 <?php
 
-echo view(app('sage.view'), app('sage.data'))->render();
+echo view( app( 'sage.view' ), app( 'sage.data' ) )->render();
