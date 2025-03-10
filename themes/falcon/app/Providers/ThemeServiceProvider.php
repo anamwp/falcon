@@ -1,4 +1,12 @@
 <?php
+/**
+ * Theme Service Provider
+ * app/Providers — The place for any Service Providers you care to define for your theme. Comes
+ * with ThemeServiceProvider that adds no functionality but provides a template for your own
+ * Service Providers.
+ *
+ * @package Falcon
+ */
 
 namespace App\Providers;
 

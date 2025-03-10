@@ -2,6 +2,11 @@
 
 /**
  * Theme setup.
+ * app/setup.php — Enqueue stylesheets and scripts, register support for theme features with
+ * add_theme_support, register navigation menus and sidebars. See Theme Configuration and Setup.
+ * https://roots.io/sage/docs/configuration/
+ *
+ * @package Falcon
  */
 
 namespace App;

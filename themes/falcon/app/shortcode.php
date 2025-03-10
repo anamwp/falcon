@@ -1,15 +1,13 @@
 <?php
-/*
+/**
  * Theme shortcodes.
+ *
+ * @package Falcon
  */
+
 namespace App;
 
 use WP_Query;
-
-// shortcode
-
-
-
 
 /**
  * Shortcode method to get cusotm field data
@@ -34,10 +32,7 @@ function wpdocs_bartag_func( $atts ) {
 		)
 	);
 
-	// $custom_field_key = $atts['key'] ? $atts['key'] : '';
 	ob_start();
-	// $meta_value = get_post_meta( get_the_ID(), $custom_field_key );
-	// echo esc_html( $meta_value[0] );
 	?>
 	<h2>Hello shortcode</h2>
 	<?php
