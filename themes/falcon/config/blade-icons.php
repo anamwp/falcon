@@ -17,7 +17,7 @@ return array(
 
 		'default' => array(
 			// 'path' => 'web/app/themes/sage/resources/images/icons', # Relative path to the new directory
-			'path'   => 'resources/images/icons', // Relative path to the new directory
+			'path'   => 'resources/images/icons', // Relative path to the new directory.
 			'prefix' => 'icon',
 		),
 
