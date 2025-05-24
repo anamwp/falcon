@@ -5,3 +5,7 @@
 [submodule "plugins/wp-cli-post-importer"]
 	path = plugins/wp-cli-post-importer
 	url = git@github-personal:anamwp/wp-cli-post-importer.git
+
+[submodule "plugins/dev-cron"]
+	path = plugins/dev-cron
+	url = git@github-personal:anamwp/dev-cron.git
