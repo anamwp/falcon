@@ -117,3 +117,4 @@ node_modules
 
 # Exclude dev-cron plugin
 plugins/dev-cron/
+plugins/dev-cpt/

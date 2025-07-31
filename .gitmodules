@@ -6,3 +6,7 @@
 	path = plugins/wp-cli-post-importer
 	url = git@github-personal:anamwp/wp-cli-post-importer.git
 
+[submodule "plugins/my-demo-block-for-test"]
+	path = plugins/my-demo-block-for-test
+	url = git@github-personal:anamwp/my-demo-block-for-test.git
+
