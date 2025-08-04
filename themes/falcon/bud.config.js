@@ -70,6 +70,18 @@ export default async (app) => {
 				defaultGradients: false,
 				defaultPalette: false,
 				duotone: [],
+				palette: [
+					{
+						name: 'Primary',
+						slug: 'primary',
+						color: '#000000',
+					},
+					{
+						name: 'Secondary',
+						slug: 'secondary',
+						color: '#ffffff',
+					},
+				],
 			},
 			custom: {
 				spacing: {},
@@ -86,7 +98,7 @@ export default async (app) => {
 				customFontSize: false,
 			},
 		})
-		.useTailwindColors()
+		// .useTailwindColors()
 		.useTailwindFontFamily()
 		.useTailwindFontSize();
 };
