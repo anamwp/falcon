@@ -1,13 +1,12 @@
 {
-  "app-scripts.js": "js/app-scripts.js",
-  "editor-scripts.js": "js/editor-scripts.js",
-  "app-styles.js": "js/app-styles.js",
-  "editor-styles.js": "js/editor-styles.js",
-  "runtime.js": "js/runtime.js",
-  "images/icons/logo.svg": "images/icons/logo.svg",
-  "images/icons/lorem.jpg": "images/icons/lorem.jpg",
-  "images/placeholder.jpg": "images/placeholder.jpg",
+  "app-scripts.js": "js/app-scripts.473b05.js",
+  "editor-scripts.js": "js/editor-scripts.9aca8a.js",
+  "app-styles.css": "css/app-styles.39ada4.css",
+  "editor-styles.css": "css/editor-styles.5d64d1.css",
+  "runtime.js": "js/runtime.c039ed.js",
+  "images/icons/logo.svg": "images/icons/logo.fbf261.svg",
+  "images/icons/lorem.jpg": "images/icons/lorem.40f5e2.jpg",
+  "images/placeholder.jpg": "images/placeholder.34a9c7.jpg",
   "../theme.json": "../theme.json",
-  "entrypoints.json": "entrypoints.json",
-  "hmr.json": "hmr.json"
+  "entrypoints.json": "entrypoints.json"
 }
