@@ -1,15 +1,15 @@
 {
   "app-scripts": {
     "js": [
-      "js/runtime.js",
-      "js/app-scripts.js"
+      "js/runtime.c039ed.js",
+      "js/app-scripts.473b05.js"
     ],
     "dependencies": []
   },
   "editor-scripts": {
     "js": [
-      "js/runtime.js",
-      "js/editor-scripts.js"
+      "js/runtime.c039ed.js",
+      "js/editor-scripts.9aca8a.js"
     ],
     "dependencies": [
       "wp-data",
@@ -18,15 +18,19 @@
   },
   "app-styles": {
     "js": [
-      "js/runtime.js",
-      "js/app-styles.js"
+      "js/runtime.c039ed.js"
+    ],
+    "css": [
+      "css/app-styles.39ada4.css"
     ],
     "dependencies": []
   },
   "editor-styles": {
     "js": [
-      "js/runtime.js",
-      "js/editor-styles.js"
+      "js/runtime.c039ed.js"
+    ],
+    "css": [
+      "css/editor-styles.5d64d1.css"
     ],
     "dependencies": []
   }
